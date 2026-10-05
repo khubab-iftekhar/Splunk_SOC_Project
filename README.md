@@ -58,7 +58,7 @@ SOC L1/L2 detection and investigation lab in Splunk Enterprise using the Boss of
 
 | # | Detection | ATT&CK | Data Source | Status |
 |---|---|---|---|---|
-| 1 | Brute force / password spray | T1110 | Windows Security 4625 | Planned |
+| 1 | Port Scan Detection |T1046 - Network Service Discovery| Command: `sudo nmap -sS 10.10.10.20'
 | 2 | Successful logon after multiple failures | T1110 | Windows Security 4624/4625 | Planned |
 | 3 | Office app spawning shell | T1204, T1059 | Sysmon EID 1 | Planned |
 | 4 | Encoded PowerShell execution | T1059.001 | Sysmon EID 1 | Planned |
@@ -107,4 +107,4 @@ The lab-setup folder documents real problems hit during setup, including the Spl
 
 ## 10. Author
 
-Khubab Iftekhar | SOC Analyst (aspiring) | LinkedIn:
+Khubab Iftekhar | SOC Analyst  | LinkedIn:
